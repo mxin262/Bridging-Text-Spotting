@@ -1,0 +1,24 @@
+_BASE_: "../Base.yaml"
+
+DATASETS:
+  TRAIN: ("totaltext_poly_train_pos",)
+  TEST: ("totaltext_poly_test",)  # or "inversetext_test", "totaltext_poly_test_rotate"
+
+MODEL:
+  WEIGHTS: "totaltext_final.pth"  # or the provided pre-trained model
+
+SOLVER:
+  IMS_PER_BATCH: 2
+  BASE_LR: 5e-5
+  LR_BACKBONE: 5e-6
+  WARMUP_ITERS: 0
+  STEPS: (6000,)
+  MAX_ITER: 10000
+  CHECKPOINT_PERIOD: 20000
+
+TEST:
+  EVAL_PERIOD: 1000
+  USE_LEXICON: False
+  LEXICON_TYPE: 1
+
+OUTPUT_DIR: "output/Bridge/TotalText/R_50_Polygon"

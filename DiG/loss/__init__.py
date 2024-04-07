@@ -1,0 +1,5 @@
+from __future__ import absolute_import
+
+from .seqCrossEntropyLoss import SeqCrossEntropyLoss
+from .seqLabelSmoothingCrossEntropyLoss import SeqLabelSmoothingCrossEntropyLoss
+from .seqSimCLRLoss import SeqSimCLRLoss
