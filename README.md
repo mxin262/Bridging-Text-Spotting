@@ -47,7 +47,6 @@ conda create -n Bridge python=3.8 -y
 conda activate Bridge
 pip install torch==1.9.1+cu111 torchvision==0.10.1+cu111 -f https://download.pytorch.org/whl/torch_stable.html
 pip install opencv-python scipy timm shapely albumentations Polygon3
-python setup.py build develop
 pip install setuptools==59.5.0
 git clone https://github.com/mxin262/Bridging-Text-Spotting.git
 cd Bridging-Text-Spotting
