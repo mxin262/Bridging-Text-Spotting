@@ -51,6 +51,9 @@ python setup.py build develop
 pip install setuptools==59.5.0
 git clone https://github.com/mxin262/Bridging-Text-Spotting.git
 cd Bridging-Text-Spotting
+cd detectron2
+python setup.py build develop
+cd ..
 python setup.py build develop
 ```
 
