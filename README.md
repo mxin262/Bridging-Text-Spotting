@@ -1,7 +1,7 @@
 <h1 align="center"> Bridging the Gap Between End-to-End and Two-Step Text Spotting </h1> 
 
 <p align="center">
-<a href="https://arxiv.org/pdf/2207.04491v2.pdf"><img src="https://img.shields.io/badge/arXiv-Paper-<color>"></a>
+<a href="https://arxiv.org/pdf/xxxxxxxx.pdf"><img src="https://img.shields.io/badge/arXiv-Paper-<color>"></a>
 </p>
 
 <p align="center">
@@ -106,7 +106,7 @@ Download the pre-trained model from [DPText-DETR](https://github.com/ymy-k/DPTex
 With the pre-trained model, use the following command to fine-tune it on the target benchmark. For example:
 
 ```
-python tools/train_net.py --config-file configs/DPText_DETR/TotalText/R_50_poly.yaml --num-gpus 4  MODEL.WEIGHTS totaltext_final.pth
+python tools/train_net.py --config-file configs/Bridge/TotalText/R_50_poly.yaml --num-gpus 4  MODEL.WEIGHTS totaltext_final.pth
 ```
 
 - ### Evaluation
@@ -132,4 +132,4 @@ If you find DPText-DETR useful in your research, please consider citing:
 ```
 
 ## Acknowlegement
-[AdelaiDet](https://github.com/aim-uofa/AdelaiDet), [DPText-DETR](https://github.com/ymy-k/DPText-DETR/tree/main), [DiG](https://github.com/ayumiymk/DiG), [TESTR](https://github.com/mlpc-ucsd/TESTR/tree/main). Thanks for their great works!
+[AdelaiDet](https://github.com/aim-uofa/AdelaiDet), [DPText-DETR](https://github.com/ymy-k/DPText-DETR/tree/main), [DiG](https://github.com/ayumiymk/DiG), [TESTR](https://github.com/mlpc-ucsd/TESTR/tree/main). Thanks for their great work!
