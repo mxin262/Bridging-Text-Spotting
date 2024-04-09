@@ -23,7 +23,7 @@ This is the official repo for the paper "Bridging the Gap Between End-to-End and
 **Total-Text**
 |Method|Det-P|Det-R|Det-F1|E2E-None|E2E-Full|Weights|
 |:------:|:------:|:------:|:------:|:------:|:------:|:------:|
-|DG-Bridge Spotter|92.0|86.5|88.2|83.3|88.3|[Google Drive](https://drive.google.com/file/d/15GnzJx_Cd0gKHGUzam5zcEFiPwbBOT-D/view?usp=sharing)|
+|DG-Bridge Spotter|92.0|86.5|89.2|83.3|88.3|[Google Drive](https://drive.google.com/file/d/15GnzJx_Cd0gKHGUzam5zcEFiPwbBOT-D/view?usp=sharing)|
 
 **CTW1500**
 |Method|Det-P|Det-R|Det-F1|E2E-None|E2E-Full|Weights|
