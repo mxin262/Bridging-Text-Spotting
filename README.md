@@ -1,7 +1,7 @@
 <h1 align="center"> Bridging the Gap Between End-to-End and Two-Step Text Spotting </h1> 
 
 <p align="center">
-<a href="https://arxiv.org/pdf/xxxxxxxx.pdf"><img src="https://img.shields.io/badge/arXiv-Paper-<color>"></a>
+<a href="https://arxiv.org/pdf/2404.04624.pdf"><img src="https://img.shields.io/badge/arXiv-Paper-<color>"></a>
 </p>
 
 <p align="center">
