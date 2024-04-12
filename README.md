@@ -123,7 +123,7 @@ python demo/demo.py --config-file ${CONFIG_FILE} --input ${IMAGES_FOLDER_OR_ONE_
 
 ## Citation
 
-If you find DPText-DETR useful in your research, please consider citing:
+If you find Bridge Text Spotting useful in your research, please consider citing:
 ```bibtex
 @inproceedings{huang2024bridge,
   title={Bridging the Gap Between End-to-End and Two-Step Text Spotting},
