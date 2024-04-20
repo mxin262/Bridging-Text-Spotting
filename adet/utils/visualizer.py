@@ -109,7 +109,7 @@ class TextVisualizer(Visualizer):
                 self.draw_circle(polygon[0], 'w', radius=3)  # vis the start point
                 self.draw_circle(polygon[0], 'g', radius=2)
                 # text = "score: {:.2f}".format(rec_string)
-                # self.draw_text(rec_string, polygon[0], horizontal_alignment="left")
+                self.draw_text(rec_string, polygon[0], horizontal_alignment="left")
                 # you can also visualize the predicted point drift between decoder layers.
 
     def draw_text(
